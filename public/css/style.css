@@ -1,0 +1,86 @@
+body {
+    background: #dadada;
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+}
+h1{
+    color: black;
+}
+p{
+    margin: 10px;
+}
+nav{
+    display: flex;
+    width: 100%;
+    font-weight: bold;
+    justify-content: center;
+    gap: 1rem;
+}
+a{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 100%;
+    text-transform: uppercase;
+    border: 3px solid #0058A2;
+    background-color: #0074d5;
+    color: white;
+    padding: 5px 7px;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.Post-Add{
+    display: grid;
+    grid-template-columns: 200px;
+    justify-content: center;
+}
+.Post-p{
+    display: flex;
+    justify-content: center;
+}
+.EDbuttons{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.title{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: white;
+    background-color: #1b3f8d;
+    padding: 10px;
+    font-size: 175%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.container{
+  margin: 10px;
+  background-color: white;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 0 15px rgba(0,0,0,0.25);
+}
+input{
+  border: 3px solid #0058A2;
+  padding: 10px;
+  font-family: 'Roboto Condensed Regular', sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 100%;
+}
+button{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 100%;
+  text-transform: uppercase;
+  border: 3px solid #0058A2;
+  background-color: #0074d5;
+  color: white;
+  padding: 5px 7px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  gap: 10px;
+  margin-top: 10px;
+}
